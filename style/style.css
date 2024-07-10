@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Azeret Mono", monospace;
+}
+.banner{
+    height: 650px;
+    max-width:1500px;
+    background:url(../assets/Hero-bg.png);
+    display:flex;
+    padding: 20px 20px;
+}
+.banner-cnt{
+    width :83%;
+    height: 650px;
+/* border: violet; */
+    margin: 0 auto;
+}
+.banner-img{
+    height: 290px;
+    width:25%;
+    margin:0 auto;
+  /*  border: 2px solid violet; */
+}
+
+.banner-txt{
+    height:360px;
+    width: 100%;
+ /*   border: 2px solid blue; */
+    text-align: center;
+}
+.txt-p{
+    font-size: 40px;
+}
+.button{
+    border-radius: 8px;
+background: rgb(13, 19, 33);
+-webkit-text-fill-color: white;
+padding: 19px 18px;
+}
+.liflet{
+    width:76%;
+height:1400px;
+margin:0 auto;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+margin-top: 140px;
+}
+.liflet-head{
+   /* border: 2px solid green; */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center ;
+    width:85%;
+    margin: 0 auto;
+}
+.liflet-cnt{
+    width: 100%;
+    height: 404px;
+ /*   border: 2px solid greenyellow ; */
+    display:flex;
+}
+.cnt-txt{
+    width: 50%;
+    height:404px ;
+ /*   border: 2px solid red; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center ;
+    padding: 5px;
+}
+.cnt-img-o{
+    width:30%;
+    height:404px;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+padding:32px 25px 32px 80px ;
+}
+.cnt-img-t{
+width: 30%;
+height:404px;
+align-items: center;
+display:flex;
+flex-direction: column;
+justify-content: center;
+padding:32px 25px 48px 80px;
+} 
+.vedio-dsc{
+height:614px;
+width: 1140px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin:0 auto;
+border-radius:16px solid red ;
+padding: 31px 9px;
+margin-top: 88px;
+}
+.vedio-ttl{width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    margin: 0 auto;
+align-items: center;
+}
+.dfert{
+    width: 90%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+iframe{
+    width:90%;
+    height: 540px;
+}
+.tags{
+    width: 1140px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 111px;
+    border-radius: 4px solid red;
+    margin:0 auto;
+}
+.tag-ttl{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.tag-h{
+    display: flex;
+    width: 1130px;
+    height: 300px;
+    margin:0 auto;
+    gap:10px ;
+}
+.tag-html{
+    width:374px;
+    height:300px;
+    border-radius: 16px;
+
+background:rgba(247, 144, 119, 0.05);
+    padding: 4px 4px ;
+}
+.tag-css{
+    width:374px;
+    height:300px;
+    border-radius: 16px;
+background: rgba(169, 209, 233, 0.05);
+    padding: 4px 4px 4px 4px;
+}
+.tag-js{
+    width:374px;
+    height:300px;
+    border-radius: 16px;
+background-color: rgba(228, 253, 170, 0.05);
+    padding: 4px 4px;
+}
+.foot{
+    background: url(../assets/handshake.jpg);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 16px;
+    padding: 62px 48px 62px 48px;
+}
+.foot-txt{
+    display: flex;
+}
+input{
+    width: 548px;
+    height: 57px;
+    border-radius: 16px;
+}
+.btn{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+height:57px;
+text-align: center;
+background-color: white;
+border-radius:16px;
+}
