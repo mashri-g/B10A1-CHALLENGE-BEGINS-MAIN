@@ -147,21 +147,21 @@ iframe{
     height:300px;
     border-radius: 16px;
 
-background:rgba(247, 144, 119, 0.05);
+background:rgba(255, 76, 30, 0.05);
     padding: 4px 4px ;
 }
 .tag-css{
     width:374px;
     height:300px;
     border-radius: 16px;
-background: rgba(169, 209, 233, 0.05);
+background: rgba(0, 76, 232, 0.05);
     padding: 4px 4px 4px 4px;
 }
 .tag-js{
     width:374px;
     height:300px;
     border-radius: 16px;
-background-color: rgba(228, 253, 170, 0.05);
+background-color: rgba(255, 223, 0, 0.05);
     padding: 4px 4px;
 }
 .foot{
@@ -191,5 +191,17 @@ line-height: 23px;
 height:57px;
 text-align: center;
 background-color: white;
-border-radius:16px;
+border-radius:16px;}
+.click{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+width: 171px;
+height: 47px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+flex: none;
+margin: 32px 0px;    
 }
